@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Esty Page</title>
+  <link rel="stylesheet" href="stylesheet/main.css">
+</head>
+<body>
+  <div class="nav-header-container">
+    <div class="nav-innerheader-container">
+  </div>
+</div>
+<div class="nav-button-header-container"></div>
+<div class="body-container">
+  <div class="container">
+    <ul class="whiskey js-whiskey"></ul>
+  </div>
+<div class="whiskey-container">
+  <script id="whiskey-template" type="text/x-handlebars-template">
+    <li class="whiskey">
+      <img src="{{Images.[0].url_170x135}}" alt="{{title}}">
+      <h1>{{title}}</h1>
+    </li>
+  </script>
+</div>
+</div>
+
+<script src="bower_components/handlebars/handlebars.js"></script>
+<script src="assets/scripts/main.js"></script>
+</body>
+</html>

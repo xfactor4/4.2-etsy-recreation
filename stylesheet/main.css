@@ -1,26 +1,20 @@
 body {
-margin: 0;
-}
+  margin: 0; }
 
 .nav-header-container {
   height: 83px;
-  border-bottom: 1px solid #E1E3DF;
-}
+  border-bottom: 1px solid #E1E3DF; }
 
 .nav-button-header-container {
   height: 46px;
-  border-bottom: 1px solid #E1E3DF;
-}
+  border-bottom: 1px solid #E1E3DF; }
 
 .body-container {
   background-color: #F5F5F1;
-  height: 1000px;
-}
+  height: 1000px; }
 
 .whiskey {
-  margin: 0;
-}
+  margin: 0; }
 
 .whiskey-container {
-  width: 500px;
-}
+  width: 500px; }

@@ -1,0 +1,23 @@
+{
+  "name": "4.2-etsy-recreation",
+  "version": "0.0.0",
+  "homepage": "https://github.com/xfactor4/4.2-etsy-recreation",
+  "authors": [
+    "<xfactor4> <gdrobinson92@comcast.net>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.4",
+    "neat": "~1.7.2"
+  }
+}
