@@ -38,10 +38,11 @@ var whiskeyURL = "https://api.etsy.com/v2/listings/active.js?api_key=r7gmr7yml4q
 
       fetchJSONP(whiskeyURL, function(data) {
         console.log(data)
+        //this variable grabs the results for each item in my api URL
         var whiskey = data.results;
         whiskey.forEach(displaywhiskey);
       });
-
+//This function is a template that makes data I have defined repeat
 function displaywhiskey(whiskey) {
   var source = document.querySelector('#whiskey-template').innerHTML;
 

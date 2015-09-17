@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Esty Page</title>
-  <link rel="stylesheet" href="stylesheet/main.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet/main.scss">
 </head>
 <body>
   <div class="nav-header-container">
@@ -13,12 +13,12 @@
 <div class="nav-button-header-container"></div>
 <div class="body-container">
   <div class="container">
-    <ul class="whiskey js-whiskey"></ul>
+    <li class="whiskey js-whiskey"></li>
   </div>
 <div class="whiskey-container">
   <script id="whiskey-template" type="text/x-handlebars-template">
-    <li class="whiskey">
-      <img src="{{Images.[0].url_170x135}}" alt="{{title}}">
+    <ul class="whiskey">
+    <span><img src="{{Images.[0].url_170x135}}" alt="{{title}}"></span>
       <h1>{{title}}</h1>
     </li>
   </script>
